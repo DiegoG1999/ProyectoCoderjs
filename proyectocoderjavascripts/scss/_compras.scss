@@ -1,0 +1,96 @@
+header {
+    background: url();
+}
+
+.h1__compras {
+    margin: 2rem;
+    text-align: center;
+}
+
+.suplementos {
+    display: flex;
+    justify-content: space-around;
+    contain: paint;
+    
+    &__fig {
+        text-align: center;
+        transition: .3s;
+        margin: 25px;
+        display: grid;
+        grid-row-gap: 25px;
+
+
+        &:hover {
+            box-shadow: 0 0 10px #666;
+            scale: 1.05;
+        }
+        button {
+            margin: 2px;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+        
+            &:hover {
+                background-color: green;
+            }
+        }
+    }
+
+    &__img {
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+.h2__ropa {
+    text-align: center;
+    margin: 2rem;
+}
+
+.ropa {
+    display: flex;
+    justify-content: space-around;
+    contain: paint;
+    margin-bottom: 90px;
+
+    &__fig {
+        text-align: center;
+        transition: .3s;
+        margin: 25px;
+        display: grid;
+        grid-row-gap: 25px;
+
+
+        &:hover {
+            box-shadow: 0 0 10px #666;
+            scale: 1.05;
+        }
+        button {
+            margin: 2px;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+        
+            &:hover {
+                background-color: green;
+            }
+        }
+        
+    }
+
+    &__img {
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+hr {
+    margin: 2rem;
+}
+
